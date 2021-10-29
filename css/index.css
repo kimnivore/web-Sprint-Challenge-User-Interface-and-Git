@@ -49,7 +49,6 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px red solid !important; */
 }
 
 html, body {
@@ -79,10 +78,12 @@ nav {
     width: 70%;
     justify-content: space-evenly;
 }
+
 .links a {
     text-decoration: none;
     color: black;
 }
+
 .header-image {
     display: flex;
     justify-content: center;
@@ -90,6 +91,7 @@ nav {
     width: 100%;
     margin: 2% 0;
 }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -108,6 +110,7 @@ nav {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 .top-content h2 {
     margin: 1% 0;
 }
@@ -124,7 +127,6 @@ nav {
 
 .middle-content {
     margin-bottom: 20px;
-    /* border-bottom: 1px dashed black; */
 }
 
 .middle-content h2 {
@@ -149,6 +151,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
 .middle-content .boxes .box1 {
     background: teal;
 }
@@ -156,27 +159,35 @@ nav {
 .middle-content .boxes .box2 {
     background: gold;
 }
+
 .middle-content .boxes .box3 {
     background: cadetblue;
 }
+
 .middle-content .boxes .box4 {
     background: coral;
 }
+
 .middle-content .boxes .box5 {
     background: crimson;
 }
+
 .middle-content .boxes .box6 {
     background: forestgreen;
 }
+
 .middle-content .boxes .box7 {
     background: darkorchid;
 }
+
 .middle-content .boxes .box8 {
     background: hotpink;
 }
+
 .middle-content .boxes .box9 {
     background: indigo;
 }
+
 .middle-content .boxes .box10 {
     background: dodgerblue;
 }
