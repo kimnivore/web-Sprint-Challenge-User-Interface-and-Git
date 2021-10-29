@@ -109,16 +109,22 @@ nav {
     padding-bottom: 20px;  
 }
 .top-content h2 {
-    margin: 1% 90% 1% 0;
+    margin: 1% 0;
 }
 
 .top-content p {
-    margin: 1.8%;
-   
+    margin: 1.8%;  
 }
+
+.top-about .top-content h2{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 91%;
+}
+
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px dashed black; */
 }
 
 .middle-content h2 {
@@ -130,6 +136,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 1px dashed black;
 }
 
 .middle-content .boxes .box {
@@ -186,19 +193,17 @@ nav {
     justify-content: space-between;
     align-items: space-between;
     padding: 2%; 
-    width: 100%
+    width: 100%;
 }
 
-.strategy, .work{
+.strategy , .work, .places, .collaboration {
+    padding: 2%;
+    margin: 2%;
     border-bottom: 1px dashed black;
 }
-.strategy , .work, .places, .collaboration{
-    padding: 2%;
-}
-
 
 .about-middle h3{
-    margin: 2% 0;
+    margin: 4% 0;
 }
 
 .about-middle button {
@@ -207,9 +212,8 @@ nav {
     background:white;
     border: black 2px solid;
     font-size: 16px;
-    margin: 2% 0;
+    margin: 4% 0;
 }
-
 
 .bottom-content {
     display: flex;
@@ -223,6 +227,10 @@ nav {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content .about-bottom{
+    margin: 3% 0;
 }
 
 footer {
