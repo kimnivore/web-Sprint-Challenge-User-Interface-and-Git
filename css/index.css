@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px red solid !important;
 }
 
 html, body {
@@ -65,6 +66,29 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: 2% 5%;
+}
+
+.links{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+}
+/* .header-image {
+    background-image: url('img/jumbo.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+} */
 
 .container {
     width: 800px;
@@ -144,3 +168,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
